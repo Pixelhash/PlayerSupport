@@ -26,23 +26,30 @@ import java.util.logging.Logger;
 public class PlayerSupport extends JavaPlugin implements Listener {
 
     //The language files.
-    public final File en = new File("plugins" + File.separator + "PlayerSupport" + File.separator + "languages" + File.separator
+    public File en = new File("plugins" + File.separator + "PlayerSupport" + File.separator + "languages" + File.separator
             + "en.yml");
-    public final File de = new File("plugins" + File.separator + "PlayerSupport" + File.separator + "languages" + File.separator
+    public File de = new File("plugins" + File.separator + "PlayerSupport" + File.separator + "languages" + File.separator
             + "de.yml");
+
     //The language FileConfigurations.
-    public final FileConfiguration cfgen = YamlConfiguration.loadConfiguration(en);
-    public final FileConfiguration cfgde = YamlConfiguration.loadConfiguration(de);
+    public FileConfiguration cfgen = YamlConfiguration.loadConfiguration(en);
+    public FileConfiguration cfgde = YamlConfiguration.loadConfiguration(de);
+
     //Updater Strings.
     public String updateLink = null, updateVersion = null;
+
     //Support player HashMap.
     public Map<Player, Player> support_players = new HashMap<>();
+
     //Checks which language is loaded.
     public boolean languageEN;
+
     //Checks if sending an updatemessage is allowed.
     public boolean updatePlayerMsg;
+
     //Minecraft logger.
     public Logger log = Logger.getLogger("Minecraft");
+
     //The language module.
     private LanguageHandler lang = new LanguageHandler(this);
 

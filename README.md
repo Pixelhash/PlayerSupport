@@ -28,8 +28,9 @@ For `/sup` you can alternatively use `/support`
 - `playersupport.list` - Allows you to see the helprequests.
 - `playersupport.addsup` - Allows you to add supporters.
 - `playersupport.removesup` - Allows you to remove supporters.
-- `playersupport.denyplayer` - Allow you to deny player to use /sup.
-- `playersupport.allowplayer` - Allow you to allow player to use /sup.
+- `playersupport.denyplayer` - Allows you to deny players to use /sup.
+- `playersupport.allowplayer` - Allows you to allow players to use /sup.
+- `playersupport.updatemsg` - Allows you too see the update message upon joining.
 
 ## SpigotMC
 
@@ -37,6 +38,7 @@ Link: [https://www.spigotmc.org/resources/playersupport.11255/](https://www.spig
 
 ## Status for v1.1
 
+ * Command (`/sup removereq <player>`) to remove requests.
  * Make suggestions.
 
 ## License

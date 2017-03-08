@@ -29,7 +29,7 @@ public class HelpCommand extends BaseCommand {
             Message.sendLogoMsg(sender, lang.getLang("nocmdaccess"));
             return;
         }
-        Message.sendMsg(sender, "&6+------------------&e[&cPlayerSupport&e]&6------------------+");
+        Message.sendMsg(sender, "&6+------------------" + lang.getLang("tag") + "&6------------------+");
         Message.sendMsg(sender, "&6/sup &a--- " + lang.getLang("helpsup"));
         Message.sendMsg(sender, "&6/sup list &a--- " + lang.getLang("helplist"));
         Message.sendMsg(sender, "&6/sup player [player] &a--- " + lang.getLang("helpaccept"));
@@ -41,7 +41,6 @@ public class HelpCommand extends BaseCommand {
         Message.sendMsg(sender, "&6/sup help &a--- " + lang.getLang("cmdlist"));
         Message.sendMsg(sender, "&6/sup info &a--- " + lang.getLang("info"));
         Message.sendMsg(sender, "&6+--------------------------------------------------+");
-        return;
     }
 
 }

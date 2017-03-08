@@ -25,6 +25,7 @@ permissions:
       playersupport.removesup: true
       playersupport.denyplayer: true
       playersupport.allowplayer: true
+      playersupport.updatemsg: true
   playersupport.support:
     description: Allows you to request help.
   playersupport.supplayer:

@@ -10,6 +10,7 @@ import de.codehat.playersupport.languages.LanguageHandler;
 import de.codehat.playersupport.util.Message;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.file.YamlConfiguration;
 
 /**
  * PlayerSupport
@@ -30,6 +31,8 @@ public class ReloadConfigCommand extends BaseCommand {
             return;
         }
         this.plugin.reloadConfig();
+        this.plugin.cfgen = YamlConfiguration.loadConfiguration(this.plugin.en);
+        this.plugin.cfgde = YamlConfiguration.loadConfiguration(this.plugin.de);
         this.lang.loadLanguages();
         Message.sendLogoMsg(sender, lang.getLang("configreload"));
     }
