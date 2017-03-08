@@ -18,9 +18,6 @@
 # Should the plugin check for updates.
 # updatecheck: true
 # --------------------------------------------------------
-# Metrics for mcstats.org.
-# metrics: true
-# --------------------------------------------------------
 # DO NOT TOUCH THESE TWO LISTS!!!
 # supporters: []
 # deniedPlayers: []
@@ -28,6 +25,5 @@
 # PLUGIN SETTINGS:
 language: en
 updatecheck: true
-metrics: true
 supporters: []
 deniedPlayers: []

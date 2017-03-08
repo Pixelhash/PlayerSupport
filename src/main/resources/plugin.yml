@@ -1,9 +1,9 @@
 name: PlayerSupport
 main: de.codehat.playersupport.PlayerSupport
 author: CodeHat
-website: https://codehat.de/
+website: https://www.spigotmc.org/resources/playersupport.11255/
 description: Let players request help from supporters.
-version: 0.2
+version: 1.0.0
 
 commands:
   support:
@@ -16,6 +16,7 @@ permissions:
     description: Access to all features.
     children:
       playersupport.support: true
+      playersupport.supplayer: true
       playersupport.info: true
       playersupport.help: true
       playersupport.reload: true
@@ -26,6 +27,8 @@ permissions:
       playersupport.allowplayer: true
   playersupport.support:
     description: Allows you to request help.
+  playersupport.supplayer:
+    description: Allows you to support players.
   playersupport.info:
     description: Allows you to see the plugin info.
   playersupport.help:
@@ -39,6 +42,8 @@ permissions:
   playersupport.removesup:
     description: Allows you to remove supporters.
   playersupport.denyplayer:
-    description: Allow you to deny player to use /sup.
+    description: Allows you to deny players to use /sup.
   playersupport.allowplayer:
-    description: Allow you to allow player to use /sup.
+    description: Allows you to allow players to use /sup.
+  playersupport.updatemsg:
+    description: Allows you to see the update message upon joining.

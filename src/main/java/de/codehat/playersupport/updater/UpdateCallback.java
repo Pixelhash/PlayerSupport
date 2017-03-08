@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 CodeHat.
+ * Copyright (c) 2017 CodeHat.
  * This file is part of 'PlayerSupport' and is licensed under GPLv3.
  */
 

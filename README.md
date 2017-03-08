@@ -1,5 +1,5 @@
-PlayerSupport v0.1.* by CodeHat
-==========
+PlayerSupport [![Build Status](https://travis-ci.org/Pixelhash/PlayerSupport.svg?branch=master)](https://travis-ci.org/Pixelhash/PlayerSupport)
+================================================================================================================================================
 
 Repository of the SignColors plugin.
 
@@ -8,7 +8,7 @@ Repository of the SignColors plugin.
 For `/sup` you can alternatively use `/support`
 
 - `/sup` - Sends a helprequest as a player, and lists helprequests as a supporter.
-- `/sup player <player>` - Accepts a helprequestn and starts the private chat.
+- `/sup player <player>` - Accepts a helprequest and starts the private chat.
 - `/sup add <player>` - Adds a player to the list of supporters.
 - `/sup remove <player>` - Removes a player from the list of supporters.
 - `/sup deny <player>` - Denies a player to use /sup.
@@ -21,6 +21,7 @@ For `/sup` you can alternatively use `/support`
 
 - `playersupport.*` - Access to all features.
 - `playersupport.support` - Allows you to request help.
+- `playersupport.supplayer` - Allows you to support players.
 - `playersupport.info` - Allows you to see the plugin info.
 - `playersupport.help` - Allows you to see the help page.
 - `playersupport.reload` - Allows you to reload the config file.
@@ -34,7 +35,7 @@ For `/sup` you can alternatively use `/support`
 
 Link: [https://www.spigotmc.org/resources/playersupport.11255/](https://www.spigotmc.org/resources/playersupport.11255/ "PlayerSupport on SpigotMC")
 
-## Status for v0.1.* or v0.2
+## Status for v1.1
 
  * Make suggestions.
 

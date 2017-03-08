@@ -11,17 +11,13 @@
 
     <groupId>de.codehat</groupId>
     <artifactId>playersupport</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>PlayerSupport</name>
 
     <repositories>
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>Plugin Metrics</id>
-            <url>http://repo.mcstats.org/content/repositories/public</url>
         </repository>
     </repositories>
 
@@ -32,13 +28,6 @@
             <artifactId>spigot-api</artifactId>
             <version>1.11.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
-        <!--MCStats API-->
-        <dependency>
-            <groupId>org.mcstats.bukkit</groupId>
-            <artifactId>metrics</artifactId>
-            <version>R8-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -64,7 +53,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>2.3</version>
@@ -89,7 +78,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
     
