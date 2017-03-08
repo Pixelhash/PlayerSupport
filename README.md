@@ -30,7 +30,7 @@ For `/sup` you can alternatively use `/support`
 - `playersupport.removesup` - Allows you to remove supporters.
 - `playersupport.denyplayer` - Allows you to deny players to use /sup.
 - `playersupport.allowplayer` - Allows you to allow players to use /sup.
-- `playersupport.updatemsg` - Allows you too see the update message upon joining.
+- `playersupport.updatemsg` - Allows you to see the update message upon joining.
 
 ## SpigotMC
 

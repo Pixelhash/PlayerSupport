@@ -9,7 +9,7 @@ commands:
   support:
     description: Requests help or shows helprequests.
     usage: /<command>
-    aliases: [sup]
+    aliases: [sup, playersupport]
     
 permissions:
   playersupport.*:
