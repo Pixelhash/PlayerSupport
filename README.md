@@ -1,11 +1,11 @@
 PlayerSupport [![Build Status](https://travis-ci.org/Pixelhash/PlayerSupport.svg?branch=master)](https://travis-ci.org/Pixelhash/PlayerSupport)
 ================================================================================================================================================
 
-Repository of the SignColors plugin.
+Repository of the PlayerSupport plugin.
 
 ## Commands
 
-For `/sup` you can alternatively use `/support`
+For `/sup` you can alternatively use `/support` or `/playersupport`
 
 - `/sup` - Sends a helprequest as a player, and lists helprequests as a supporter.
 - `/sup player <player>` - Accepts a helprequest and starts the private chat.
