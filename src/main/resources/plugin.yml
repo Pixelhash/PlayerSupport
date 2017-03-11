@@ -3,7 +3,7 @@ main: de.codehat.playersupport.PlayerSupport
 author: CodeHat
 website: https://www.spigotmc.org/resources/playersupport.11255/
 description: Let players request help from supporters.
-version: 1.0.0
+version: 1.0.1
 
 commands:
   support:

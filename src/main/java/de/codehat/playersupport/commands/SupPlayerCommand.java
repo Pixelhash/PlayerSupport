@@ -61,7 +61,7 @@ public class SupPlayerCommand extends BaseCommand {
         Message.sendLogoMsg(help, String.format(lang.getLang("gethelpmsg"), p.getName()));
         Message.sendLogoMsg(help, lang.getLang("helpchatmsg"));
         Message.sendLogoMsg(help, lang.getLang("exitchatinfo"));
-        p.playSound(help.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1F, 1F);
+        help.playSound(help.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1F, 1F);
     }
 
 }

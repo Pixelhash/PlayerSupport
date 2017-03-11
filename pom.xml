@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (c) 2016 CodeHat.
+  ~ Copyright (c) 2017 CodeHat.
   ~ This file is part of 'PlayerSupport' and is licensed under GPLv3.
   -->
 
@@ -11,7 +11,7 @@
 
     <groupId>de.codehat</groupId>
     <artifactId>playersupport</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>PlayerSupport</name>
 
     <repositories>
